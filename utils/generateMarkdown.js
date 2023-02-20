@@ -2,20 +2,12 @@ function generateMarkdown(data) {
   let licenseBadge = "";
   let licenseLink = "";
   let licenseSection = "";
-
-  if (data.license && data.license !== "None") {
-    licenseBadge = `[![License](https://img.shields.io/badge/License-${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})`;
-    licenseLink = `- [License](#license)`;
-    licenseSection = `
-  ## License
-  This application is licensed under the ${data.license} license.`;
-  } else {
-    licenseSection = `
-  ## License
-  This application is not licensed.`;
+  if (data.license !== "None") {
+    licenseBadge = `![Badge](https://img.shields.io/badge/License-${data.license}-green.svg)`;
+    licenseLink = `- [License](#license-📝)`;
+    licenseSection = `## License 📝
+This application is licensed under ${data.license} license.`;
   }
-  
-
   return `
   # ${data.title}
   ${licenseBadge}
