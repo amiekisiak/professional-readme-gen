@@ -4,8 +4,7 @@ function generateMarkdown(data) {
   let licenseSection = "";
 
   if (data.license && data.license !== "None") {
-    licenseBadge = `![badge](https://img.shields.io/badge/license-${data.license}-important)
-    `;
+    licenseBadge = `![badge](https://img.shields.io/badge/license-${data.license}-important)`;
     licenseLink = `- [License](#license-)`;
     licenseSection = `
   ## License
