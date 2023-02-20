@@ -1,9 +1,10 @@
 
   # professional-readme-gen
-  ![Badge](https://img.shields.io/badge/License-MIT License-green.svg)
+  ![badge](https://img.shields.io/badge/license-MIT License-important)
+    
   
   ## Description 
-  The purpose of this challenge is to create professional README file generator. This is a command-line application and it runs with Node.js that dynamically generates a README.md file based on input about your project. Please see the ExampleREADME.md in my repo.
+  The purpose of this challenge is to create professional README file generator. 
   
   ## Table of Contents 
   - [Installation](#installation)
@@ -11,15 +12,15 @@
   - [Screenshot](#screenshot)
   - [License](#license-)
   - [Test](#tests)
-  - [Credits](#credits)
+  - [Contributors](#contributing)
   - [Questions](#questions)
   - [Deployed Application](#deployed-application)
   
   ## Installation
-  To generate README file GitHub repository must be cloned to your local environment.Then you must run npm init in order to install package.json, which includes required dependencies. The package includes ‘Inquirer’, which will prompt you for your inputs from the command line.The recommended version of the ‘Inquirer’ is version 6.5.0, which can be installed by use of the following command-line ‘npm i inquirer@6.5.0’.After installation, README.md file will be ready to use at the root of the repository.The badge is automatically generated and is using badge generator from shields.io.
+  To generate README file GitHub repository must be cloned to your local environment. Then you must run npm init in order to install package.json, which includes required dependencies. The package includes ‘Inquirer’, which will prompt you for your inputs from the command line.The recommended version of the ‘Inquirer’ is version 6.5.0, which can be installed by use of the following command-line ‘npm i inquirer@6.5.0’.
   
   ## Usage
-  
+  Please see the video below:
   
   
   ## License
