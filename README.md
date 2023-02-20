@@ -1,6 +1,6 @@
 
   # professional-readme-gen
-  ![badge](https://img.shields.io/badge/license-MIT License-important)
+  [![License](https://img.shields.io/badge/License-MIT License-blue.svg)](https://opensource.org/licenses/MIT License)
   
   ## Description 
   The purpose of this challenge is to create professional README file generator. This is a command-line application and it runs with Node.js that dynamically generates a README.md file.
@@ -9,7 +9,7 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Screenshot](#screenshot)
-  - [License](#license-)
+  - [License](#license)
   - [Test](#tests)
   - [Contributors](#contributing)
   - [Questions](#questions)
@@ -19,11 +19,11 @@
   To generate README file GitHub repository must be cloned to your local environment.
   
   ## Usage
-  Then you must run npm init in order to install package.json, which includes required dependencies. The package includes ‘Inquirer’, which will prompt you for your inputs from the command line.
+  please see the video below:
   
   
   ## License
-  This application is licensed under MIT License license.
+  This application is licensed under the MIT License license.
   
   ## Tests
   npm test
