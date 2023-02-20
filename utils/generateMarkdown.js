@@ -36,7 +36,7 @@ This application is licensed under ${data.license} license.`;
   ## Tests
   ${data.tests}
   
-  ## Contributors
+  ## Contributing
   ${data.contributing}
   
   ## Questions
