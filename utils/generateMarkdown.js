@@ -3,9 +3,9 @@ function generateMarkdown(data) {
   let licenseLink = "";
   let licenseSection = "";
   if (data.license !== "None") {
-    licenseBadge = `![Badge](https://img.shields.io/badge/License-${data.license}-green.svg)`;
-    licenseLink = `- [License](#license-📝)`;
-    licenseSection = `## License 📝
+    licenseBadge = `![License](https://img.shields.io/badge/license-${encodeURIComponent(data.license)}-blue.svg)`
+    licenseLink = `- [License](#license-)`;
+    licenseSection = `## License 
 This application is licensed under ${data.license} license.`;
   }
   return `
@@ -44,7 +44,9 @@ This application is licensed under ${data.license} license.`;
   My GitHub: [${data.github}](${data.github})
   
   ## Deployed Application
-  This application was deplopyed at [${data.deploy}](${data.deploy})
+  This application was deployed at [${data.deploy}](${data.deploy})
   `;
 }
+
 module.exports = generateMarkdown;
+
