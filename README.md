@@ -19,7 +19,7 @@
   To generate README file GitHub repository must be cloned to your local environment.Then you must run npm init in order to install package.json, which includes required dependencies. The package includes ‘Inquirer’, which will prompt you for your inputs from the command line.The recommended version of the ‘Inquirer’ is version 6.5.0, which can be installed by use of the following command-line ‘npm i inquirer@6.5.0’.After installation, README.md file will be ready to use at the root of the repository.The badge is automatically generated and is using badge generator from shields.io.
   
   ## Usage
-Please see the video: 
+
  https://user-images.githubusercontent.com/117371691/220460544-6428fd84-a714-4363-b4c5-0d9f71422d53.mp4
 
   
