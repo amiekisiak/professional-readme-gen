@@ -9,9 +9,9 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Screenshot](#screenshot)
-  - [License](#license-)
+  - [License](#license)
   - [Test](#tests)
-  - [Contributors](#contributing)
+  - [Contributors](#contributors)
   - [Questions](#questions)
   - [Deployed Application](#deployed-application)
   
@@ -19,13 +19,19 @@
   To generate README file GitHub repository must be cloned to your local environment.Then you must run npm init in order to install package.json, which includes required dependencies. The package includes ‘Inquirer’, which will prompt you for your inputs from the command line.The recommended version of the ‘Inquirer’ is version 6.5.0, which can be installed by use of the following command-line ‘npm i inquirer@6.5.0’.After installation, README.md file will be ready to use at the root of the repository.The badge is automatically generated and is using badge generator from shields.io.
   
   ## Usage
-  please see the video below:
+Please see the video: 
+https://user-images.githubusercontent.com/117371691/220460544-6428fd84-a714-4363-b4c5-0d9f71422d53.mp4
+
   
   ## License 
 This application is licensed under MIT License license.
+
+  ## Screenshot
+  ![prof-readme-screenshot](https://user-images.githubusercontent.com/117371691/220466593-a599c9d3-f2fd-4a48-8ff8-ff84c5984cd9.png)
+
   
   ## Tests
-  To run tests, run the following command: npm test
+  run npm test
   
   ## Contributors
   Aleksandra Miekisiak

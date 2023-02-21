@@ -50,7 +50,7 @@ function generateReadme() {
     {
       type: 'input',
       message: 'List of contributors',
-      name: 'contributing',
+      name: 'contributors',
     },
     {
       type: 'input',

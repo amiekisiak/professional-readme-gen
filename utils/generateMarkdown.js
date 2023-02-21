@@ -4,7 +4,7 @@ function generateMarkdown(data) {
   let licenseSection = "";
   if (data.license !== "None") {
     licenseBadge = `![License](https://img.shields.io/badge/license-${encodeURIComponent(data.license)}-blue.svg)`
-    licenseLink = `- [License](#license-)`;
+    licenseLink = `- [License](#license)`;
     licenseSection = `## License 
 This application is licensed under ${data.license} license.`;
   }
@@ -21,7 +21,7 @@ This application is licensed under ${data.license} license.`;
   - [Screenshot](#screenshot)
   ${licenseLink}
   - [Test](#tests)
-  - [Contributors](#contributing)
+  - [Contributors](#contributors)
   - [Questions](#questions)
   - [Deployed Application](#deployed-application)
   
@@ -32,12 +32,15 @@ This application is licensed under ${data.license} license.`;
   ${data.usage}
   
   ${licenseSection}
+
+  ## Screenshot
+  ${data.screenshot}
   
   ## Tests
   ${data.tests}
   
   ## Contributors
-  ${data.contributing}
+  ${data.contributors}
   
   ## Questions
   Please feel free to email me at: ${data.email}
