@@ -70,11 +70,11 @@ function generateReadme() {
   ])
   .then((data) => {
     const markdown = generateMarkdown(data);
-    fs.writeFile('README.md', markdown, (err) => {
+    fs.writeFile('sampleREADME.md', markdown, (err) => {
       if (err) {
         console.error(err);
       } else {
-        console.log('README.md generated!');
+        console.log('sampleREADME.md generated!');
       }
     });
   });
