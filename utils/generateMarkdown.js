@@ -36,12 +36,12 @@ This application is licensed under ${data.license} license.`;
   ## Tests
   ${data.tests}
   
-  ## Contributing
+  ## Contributors
   ${data.contributing}
   
   ## Questions
   Please feel free to email me at: ${data.email}
-  My GitHub: [${data.github}](${data.github})
+  My GitHub: https://github.com/${data.github}
   
   ## Deployed Application
   This application was deployed at [${data.deploy}](${data.deploy})

@@ -25,15 +25,15 @@
 This application is licensed under MIT License license.
   
   ## Tests
-  To run tests, run the following command npm test.
+  To run tests, run the following command: npm test
   
   ## Contributors
   Aleksandra Miekisiak
   
   ## Questions
   Please feel free to email me at: amiekisiak@gmail.com
-  My GitHub: [amiekisiak](amiekisiak)
+  My GitHub: https://github.com/amiekisiak
   
   ## Deployed Application
-  This application was deployed at [https://github.com/amiekisiak/professional-readme-gen#credits](https://github.com/amiekisiak/professional-readme-gen#credits)
+  This application was deployed at [https://github.com/amiekisiak/professional-readme-gen](https://github.com/amiekisiak/professional-readme-gen)
   
